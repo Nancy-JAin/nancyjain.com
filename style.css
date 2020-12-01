@@ -36,3 +36,11 @@ body{
     padding: 0.5rem 1rem;
     border-radius: 1rem;
 }
+
+.list-unorder-styling {
+    list-style-type: square;
+}
+.list-inline {
+    display: inline;
+    padding 0rem 0.5rem;
+}
