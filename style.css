@@ -1,4 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 body{
-    @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');;
     font-family: 'PT Sans', sans-serif;
+}
+
+:root {
+    --primary-color: #ff6363;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center{
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.link{
+    text-decoration: none;
+}
+.primary-link {
+    background-color: var(--primary-color);
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.link-secondary {
+    color:black;
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
 }
