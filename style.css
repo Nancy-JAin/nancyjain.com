@@ -80,3 +80,19 @@ body{
 .link-active {
     font-weight: bold;
 }
+
+.img {
+    text-align: center;
+    padding: 1.5rem;
+    display: block;
+    margin: auto;
+}
+
+.img-feat {
+    width: 350px;
+}
+
+.img-heading {
+    color: #78350F;
+
+}
