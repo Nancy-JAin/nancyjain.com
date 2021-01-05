@@ -7,6 +7,7 @@ body{
 
 :root {
     --primary-color: #ff6363;
+    --offwhite-color: grey;
 }
 
 .container{
@@ -93,6 +94,26 @@ body{
 }
 
 .img-heading {
-    color: #78350F;
+    color: #f033223;
 
+}
+
+.section {
+    padding: 1rem 1rem;
+}
+.section-w {
+    padding: 1rem 1rem;
+}
+
+.section-ow {
+    padding: 1rem 1rem;
+    background-color: var(--offwhite-color);
+}
+
+.section-ow h3{
+    text-align: center;
+}
+
+.section-w h3{
+    text-align: center;
 }
