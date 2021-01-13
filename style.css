@@ -3,6 +3,7 @@
 
 body{
     font-family: 'PT Sans', sans-serif;
+    margin: 0px;
 }
 
 :root {
@@ -116,4 +117,23 @@ body{
 
 .section-w h3{
     text-align: center;
+}
+
+.footer {
+    text-align: center;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.Social-links {
+    text-align: center;
+    padding-inline-start: 0px;
+    padding: 0rem 0.5rem;
+}
+
+.footer-header {
+    font-size: 0.6cm;
+    font-weight: bold;
 }
