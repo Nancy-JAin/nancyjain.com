@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'PT Sans', sans-serif;
     margin: 0px;
@@ -21,6 +25,12 @@ body{
     margin: auto;
     text-align: center;
 
+}
+
+.project1{
+    text-decoration: none;
+    padding: 1% 0 2% 1%;
+    color: black;
 }
 
 .link{
@@ -97,8 +107,7 @@ body{
 }
 
 .img-heading {
-    color: #f033223;
-
+    color: #f03322;
 }
 
 .section {
@@ -111,6 +120,7 @@ body{
 .section-ow {
     padding: 1.5rem 1rem;
     background-color: var(--offwhite-color);
+    color:white;
 }
 
 .section-ow h3{
@@ -138,4 +148,12 @@ body{
 .footer-header {
     font-size: 0.6cm;
     font-weight: bold;
+}
+
+.fix-footer{
+    display: flexbox;
+    flex-direction: row;
+    position: relative;
+    top: 0em;
+
 }

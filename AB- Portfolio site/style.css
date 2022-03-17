@@ -1,0 +1,158 @@
+body {
+    margin: 0px 0px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.profile-img {
+    width: 12%;
+    border-radius: 100%;
+}
+
+.mountain-img {
+    width: 30%%;
+}
+
+h1 {
+    margin: 50px auto 0 auto;
+    font-family: 'Waterfall', cursive;
+    font-size: 450%;
+    color: black;
+    line-height: 2;
+}
+
+
+h2 {
+    font-family: 'Noto Serif', serif;
+    font-size: 2.5rem;
+    color: #7E370C;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Noto Serif', serif;
+    color: #A3423C;
+
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    width: 5%;
+    border-style: dotted none none none;
+    border-color: lightgray;
+    border-width: 3px;
+    margin: 50px auto;
+
+}
+
+.intro {
+    width: 35%;
+    margin: auto;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 330px;
+    top: 40px;
+}
+
+.top-container {
+    background-color: bisque;
+    text-align: center;
+    border-top: 0.5px;
+    padding: 0.5px;
+    position: relative;
+    padding-top: 30px;
+    ;
+
+}
+
+.skill-row {
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    padding: 5px 0;
+}
+
+.salesforce {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+
+}
+
+.html_css {
+    width: 35%;
+    float: right;
+    padding-left: 15px;
+}
+
+/*.contact-button {
+    width: 20%;
+    margin: 10px auto;
+    text-align: center;
+}*/
+
+.contact-message {
+    width:35%;
+    margin: 30px auto 45px;
+
+}
+
+.btn {
+    background: #f09535;
+    background-image: -webkit-linear-gradient(top, #f09535, #b8742b);
+    background-image: -moz-linear-gradient(top, #f09535, #b8742b);
+    background-image: -ms-linear-gradient(top, #f09535, #b8742b);
+    background-image: -o-linear-gradient(top, #f09535, #b8742b);
+    background-image: linear-gradient(to bottom, #f09535, #b8742b);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family:'Noto Serif', serif;
+    color: #111111;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #fac19b;
+    background-image: -webkit-linear-gradient(top, #fac19b, #e0b467);
+    background-image: -moz-linear-gradient(top, #fac19b, #e0b467);
+    background-image: -ms-linear-gradient(top, #fac19b, #e0b467);
+    background-image: -o-linear-gradient(top, #fac19b, #e0b467);
+    background-image: linear-gradient(to bottom, #fac19b, #e0b467);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: bisque;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+a {
+    font-family:'Noto Serif', serif;
+    color: #7E370C;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f09535;
+}
+
+.copyright {
+    color: #7E370C;
+    padding: 5px;
+    font-size: 0.85rem;
+}
